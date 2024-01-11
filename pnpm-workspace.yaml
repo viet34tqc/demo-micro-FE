@@ -1,6 +1,7 @@
 # PNPM workspace that can manage all the packages (microFE app)
 packages:
-  - './store'
-  - './root-app'
-  - './product'
-  - './cart'
+  - 'root-app'
+  - 'store'
+  - 'product'
+  - 'cart'
+  - 'about'
