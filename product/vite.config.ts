@@ -20,8 +20,10 @@ export default defineConfig({
         './App': './src/App.tsx',
       },
       remotes: {
-        'cart-app': 'http://localhost:3002/dist/assets/cart-app-entry.js',
-        'store-app': 'http://localhost:3003/dist/assets/store-app-entry.js',
+        'cart-app':
+          'http://localhost:3002/cart-app/dist/assets/cart-app-entry.js',
+        'store-app':
+          'http://localhost:3003/store-app/dist/assets/store-app-entry.js',
       },
     }),
   ],
@@ -37,4 +39,6 @@ export default defineConfig({
   preview: {
     port: 3001,
   },
+  // Optional, for clarification
+  base: '/product-app/',
 });

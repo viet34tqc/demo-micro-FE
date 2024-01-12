@@ -27,4 +27,6 @@ export default defineConfig({
   preview: {
     port: 3003,
   },
+  // Optional, for clarification
+  base: '/store-app/',
 });

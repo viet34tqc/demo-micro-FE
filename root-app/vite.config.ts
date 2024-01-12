@@ -15,10 +15,14 @@ export default defineConfig({
       shared: ['react', 'react-dom', 'react-router-dom', 'zustand'],
       // Use product from product module
       remotes: {
-        'product-app': 'http://localhost:3001/dist/assets/product-app-entry.js',
-        'cart-app': 'http://localhost:3002/dist/assets/cart-app-entry.js',
-        'store-app': 'http://localhost:3003/dist/assets/store-app-entry.js',
-        'about-app': 'http://localhost:4001/dist/assets/about-app-entry.js',
+        'product-app':
+          'http://localhost:3001/product-app/dist/assets/product-app-entry.js',
+        'cart-app':
+          'http://localhost:3002/cart-app/dist/assets/cart-app-entry.js',
+        'store-app':
+          'http://localhost:3003/store-app/dist/assets/store-app-entry.js',
+        'about-app':
+          'http://localhost:4001/about-app/dist/assets/about-app-entry.js',
       },
     }),
   ],

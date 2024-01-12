@@ -25,4 +25,6 @@ export default defineConfig({
     minify: false,
     target: ['chrome89', 'edge89', 'firefox89', 'safari15'],
   },
+  // Optional, for clarification
+  base: '/about-app/',
 });
