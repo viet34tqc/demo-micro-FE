@@ -24,4 +24,4 @@ Basically, we can add the product to the cart on the homepage, view the cart and
 ## How to run the project
 
 - Run `pnpm build` and `pnpm dev` in the root folder
-- Go to folder store and run `pnpm build` and `pnpm dev` in the root folder (for some reasons, I cannot understand why the store cannot run in the above command)
+- Go to folder store and run `pnpm dev` (for some reasons, I cannot understand why the store cannot run in by using above command)

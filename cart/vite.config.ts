@@ -32,5 +32,5 @@ export default defineConfig({
     port: 3002,
   },
   // Optional, for clarification
-  base: 'cart-app',
+  base: '/cart-app/',
 });
